@@ -86,13 +86,13 @@ The results are fairly close to the original paper, whose results are produced b
 ### KD improved 1
 |  CIFAR100-Vgg  | Teacher |   Sparsity (1e-4) | Prune (50%) | Fine-tune-160(50%) | KD-Fine-tune-160(50%) |
 | :---------------: | :------: | :--------------------------: | :-----------------: | :-------------------: | :-------------------: |
-| Top1 Accuracy (%) |   72.63   |            72.16             |         1.00        |         70.56         | 72.45 |
+| Top1 Accuracy (%) |   72.63   |            72.16             |         1.00        |         70.56         | **72.45** |
 |    Parameters     |  20.08M  |            20.08M            |        5.96M        |         5.96M         |  5.96M |
 
 ### KD improved 2
 |  CIFAR100-Vgg  | Teacher |   Sparsity (1e-4) | Prune (50%) | Fine-tune-160(50%) | KD-Fine-tune-160(50%) |
 | :---------------: | :------: | :--------------------------: | :-----------------: | :-------------------: | :-------------------: |
-| Top1 Accuracy (%) |   72.75   |            73.04             |         1.00        |         70.33         | 72.85 |
+| Top1 Accuracy (%) |   72.75   |            73.04             |         1.00        |         70.33         | **72.85** |
 |    Parameters     |  20.08M  |            20.08M            |        4.95M        |         4.95M         |  4.95M |
 
 |  CIFAR100-Resnet-164  | Baseline |   Sparsity (1e-5) | Prune (40%) | Fine-tune-160(40%) |    Prune(60%)  | Fine-tune-160(60%) |
